@@ -1,0 +1,14 @@
+<html>
+    <body onload= checkScope();>
+        <script type="text/javascript">
+
+        var myVar = "global";  //global variable
+
+        function checkScope(){
+            var myVar = "local";  // local variable
+            document.write(myVar);
+        }
+
+        </script>
+    </body>
+</html>
